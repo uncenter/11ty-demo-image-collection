@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+
+<ul>
+{% for image in images %}
+    <li><a href="{{image}}">{{ image }}</a></li>
+{% endfor %}
+</ul>
