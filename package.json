@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "latest",
+    "image-size": "^1.1.1",
     "rimraf": "^5.0.5"
   }
 }

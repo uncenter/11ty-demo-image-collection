@@ -4,6 +4,6 @@ layout: base.njk
 
 <ul>
 {% for image in images %}
-    <li><a href="{{image}}">{{ image }}</a></li>
+    <li><a href="{{ image.path }}">{{ image.path }} ({{ image.width }} x {{ image.height }})</a></li>
 {% endfor %}
 </ul>
